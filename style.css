@@ -1,3 +1,4 @@
+/*Dark Mode*/
 .container {
    display: flex;
    justify-content: center;
@@ -5,7 +6,7 @@
 
 }
 
-
+/*Dark Mode*/
 .box {
     display: flex;
     justify-content: center;
@@ -22,7 +23,7 @@
     top: 0;
     transition: top ease 0.5s;
 }
-
+/*Hambrug Menu*/
 .box:hover {
     top: -50px;
 }
@@ -101,3 +102,20 @@ body {
 .menu__item:hover {
   background-color: #CFD8DC;
 }
+
+
+/*h1 body*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #242329;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
